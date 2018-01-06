@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mukhlish.calender.Main3Activity">
+
+    <TextView
+        android:id="@+id/myDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="48dp"
+        android:text="Mark Your Date"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_calen">
+
+
+        <TextView
+            android:id="@+id/textV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/data"
+        android:padding="10dp"
+        android:textColor="#fff"
+
+        android:background="@drawable/btn1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="Save My Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
